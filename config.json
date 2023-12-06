@@ -1,6 +1,6 @@
 {
   "name": "MySMAReader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "modbus_inverter",
   "description": "SMA Solar inverter communication Addon",
   "url": "https://github.com/karelvdvd/MySMAReader",
@@ -20,7 +20,7 @@
   "schema": {
     "Inverter_IP": "str",
     "Inverter_port": "int",
-    "Model": "list(SMA)",
+    "Model": "str",
     "Scan_interval" : "int(10,600)",
     "Scan_timeout": "int(3,60)",
     "Log_level": "list(DEBUG|INFO|WARNING)"
