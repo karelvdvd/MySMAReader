@@ -387,7 +387,7 @@ def scrape_inverter():
             del inverter["second"]
         except Exception:
             pass
-    elif "sma-" in options['model']:
+    elif "SMA" in options['model']:
         load_sma_register(modmap.sma_registers)
     else:
         raise RuntimeError(f"Unsupported inverter model detected: {options['model']}")
