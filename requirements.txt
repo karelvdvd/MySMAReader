@@ -1,0 +1,5 @@
+PyYAML==5.3.1
+paho-mqtt>=1.5.1
+pymodbus==2.4.0
+SungrowModbusTcpClient>=0.1.5
+readsettings>=3.4.5
