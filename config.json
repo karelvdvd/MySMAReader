@@ -1,6 +1,6 @@
 {
   "name": "MySMAReader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "slug": "modbus_inverter",
   "description": "SMA Solar inverter communication Addon",
   "url": "https://github.com/karelvdvd/MySMAReader",
