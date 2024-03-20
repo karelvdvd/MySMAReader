@@ -13,7 +13,7 @@ COPY ModbusTCP.py /
 
 # Install requirements for add-on
 RUN apk add --no-cache python3-dev py3-pip g++
-RUN pip3 install -r /tmp/requirements.txt
+# RUN pip3 install -r /tmp/requirements.txt
 RUN chmod a+x /run.sh
 
 CMD ["/run.sh"]
